@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yourwebsite.com/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+  <!-- Magdagdag ng <url> block para sa bawat page mo, hal. privacy.html -->
+  <url>
+    <loc>https://yourwebsite.com/privacy.html</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+</urlset>

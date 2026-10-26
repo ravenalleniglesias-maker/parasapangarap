@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--
+  PALITAN MO ITO BAGO MAG-PUBLISH:
+  1. Lahat ng https://yourwebsite.com/  -> ang tunay mong URL
+  2. "YourStudio", "Color Odd One", at ang Play Store link -> sa iyo
+  3. og-image.png -> gumawa ng 1200x630 na image at i-upload sa tabi ng index.html
+-->
+
+<!-- Ito ang lumalabas na blue link sa Google. Unique sa bawat page, ~60 characters -->
+<title>YourStudio – Free Android Games &amp; Apps</title>
+
+<!-- Ito ang madalas na lumalabas na description sa ilalim. ~150-160 characters -->
+<meta name="description" content="YourStudio makes free, simple Android games and apps. Download Color Odd One on Google Play and test how sharp your eyes are.">
+
+<link rel="canonical" href="https://yourwebsite.com/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0a7d5a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎮%3C/text%3E%3C/svg%3E">
+
+<!-- Preview kapag sine-share sa Facebook, Messenger, Telegram, atbp. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="YourStudio – Free Android Games &amp; Apps">
+<meta property="og:description" content="Free, simple Android games and apps. Download on Google Play.">
+<meta property="og:url" content="https://yourwebsite.com/">
+<meta property="og:image" content="https://yourwebsite.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Structured data: tumutulong kay Google na maintindihan kung ano ang site mo -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "YourStudio",
+      "url": "https://yourwebsite.com/"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Color Odd One",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Android",
+      "description": "A free puzzle game where you find the tile with the odd color.",
+      "url": "https://play.google.com/store/apps/details?id=com.example.guessthecolor",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --bg:#f2f6f3; --ink:#10231c; --muted:#4a5f56; --accent:#0a7d5a;
+    --on-accent:#fff; --line:#cfdcd4;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0e1a15; --ink:#e6f0ea; --muted:#9bb2a7; --accent:#3ddc97;
+      --on-accent:#08170f; --line:#24382f;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:1.0625rem/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  }
+  .wrap{max-width:44rem; margin:0 auto; padding:0 1.25rem}
+  header{padding:1.25rem 0; border-bottom:1px solid var(--line)}
+  header .wrap{display:flex; justify-content:space-between; align-items:center}
+  .brand{font-weight:800; letter-spacing:-.02em; color:var(--ink); text-decoration:none}
+  nav a{margin-left:1.25rem; color:var(--muted); text-decoration:none}
+  nav a:hover{color:var(--ink)}
+  a:focus-visible{outline:3px solid var(--accent); outline-offset:3px}
+  .hero{padding:4.5rem 0 3.5rem}
+  h1{
+    font-size:clamp(2.4rem,8vw,4rem); line-height:1.02;
+    letter-spacing:-.04em; font-weight:800; margin:0 0 1.25rem;
+  }
+  .hero p{font-size:1.2rem; color:var(--muted); max-width:34rem; margin:0 0 2rem}
+  .btn{
+    display:inline-block; padding:.85rem 1.4rem; border-radius:.5rem;
+    background:var(--accent); color:var(--on-accent);
+    font-weight:700; text-decoration:none;
+  }
+  h2{font-size:1.5rem; letter-spacing:-.02em; margin:0 0 1rem}
+  section{padding:2.5rem 0; border-top:1px solid var(--line)}
+  .app{padding:1.1rem 0; border-bottom:1px solid var(--line)}
+  .app:last-child{border-bottom:0}
+  .app h3{margin:0 0 .25rem; font-size:1.15rem}
+  .app p{margin:0 0 .5rem; color:var(--muted)}
+  .app a{color:var(--accent); font-weight:600}
+  footer{padding:2rem 0 3rem; color:var(--muted); font-size:.95rem; border-top:1px solid var(--line)}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/">YourStudio</a>
+    <nav aria-label="Main">
+      <a href="#apps">Apps</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <!-- Isang h1 lang kada page, nandito ang main keyword mo -->
+    <div class="hero">
+      <h1>Free Android games you can play in a minute.</h1>
+      <p>YourStudio is an independent developer making simple, fun games and apps for Android phones.</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.example.guessthecolor">Get Color Odd One on Google Play</a>
+    </div>
+
+    <section id="apps">
+      <h2>Our apps</h2>
+
+      <article class="app">
+        <h3>Color Odd One</h3>
+        <p>Find the tile with the slightly different color before time runs out. The grid gets bigger as you level up.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.example.guessthecolor">View on Google Play</a>
+      </article>
+
+      <article class="app">
+        <h3>Your Next App</h3>
+        <p>Maglagay ng maikling description dito: ano ang ginagawa nito at para kanino. Gumamit ng mga salitang hinahanap ng tao sa Google.</p>
+        <a href="#contact">Get notified when it launches</a>
+      </article>
+    </section>
+
+    <section id="about">
+      <h2>About YourStudio</h2>
+      <p>YourStudio is a solo studio based in the Philippines. We build lightweight Android games and apps that run well on mid-range phones and stay free to play, supported by ads.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Questions, bug reports, or feedback? Email <a href="mailto:hello@yourwebsite.com">hello@yourwebsite.com</a>.</p>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <!-- Kailangan ng Play Store ang privacy policy kapag may ads ang app -->
+    <a href="/privacy.html">Privacy policy</a> &nbsp;·&nbsp; &copy; 2026 YourStudio
+  </div>
+</footer>
+
+</body>
+</html>
